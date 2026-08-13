@@ -4,22 +4,22 @@ cask "sf-deck" do
 
   on_macos do
     on_intel do
-      sha256 "147db21cc6ca12c9d07353fc7f0e827a823c3858506dba821b8c638b94e22bd8"
+      sha256 "a0daede80e7e61cd9d0c8509a4df697512293a34602a0c8d060a270217516c0f"
       url "https://github.com/Jacob-Stokes/sf-deck/releases/download/v#{version}/sf-deck_#{version}_darwin_amd64.tar.gz"
     end
     on_arm do
-      sha256 "9257d278ef1fecfb6da2dc651aafe0c00a673cc0d8aff7b171d1d3ab72728b7f"
+      sha256 "da8d76bfa6b59fb1f91dc8732d8409ac2958635f486a1e1c51d1a7d30f16001b"
       url "https://github.com/Jacob-Stokes/sf-deck/releases/download/v#{version}/sf-deck_#{version}_darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "30ea5ceb1e20cd5d079cdc175182111f58330f48a07bf89ddb3cf302f235910f"
+      sha256 "13fc6da6897b2d8e838424eafd65e51ac9669fb289060e8a33d2e328a06f6820"
       url "https://github.com/Jacob-Stokes/sf-deck/releases/download/v#{version}/sf-deck_#{version}_linux_amd64.tar.gz"
     end
     on_arm do
-      sha256 "09d87f97cf49017761f6bde2d4cd769c6c1bf588b1152393fd40ec56719e8f0e"
+      sha256 "29a0183ce322da41a9b318286794f10a94a70d6a51228837620d0f1e22f3fdff"
       url "https://github.com/Jacob-Stokes/sf-deck/releases/download/v#{version}/sf-deck_#{version}_linux_arm64.tar.gz"
     end
   end
